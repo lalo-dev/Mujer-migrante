@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="115e0e75-e797-4e77-8e72-06af381af31b" name="inmujeres" url="http://189.206.27.49">
+        <fileTransfer host="189.206.27.49" port="22" rootFolder="/home/webapps/www/html/aplicaciones_inmujeres/mujermigrante/2017/new/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
