@@ -1,4 +1,68 @@
 <?php
+    include_once("php/ConexionBD.php");
+
+    echo 'Hola lalo':
+
+    $vConn = new ConexionBD();
+    
+    if(isset($_POST['acc'])){
+        
+        $vAcc = $_POST['acc'];
+        
+        switch($vAcc)
+        {
+            case "ingreso":
+                    //consulta();
+                break;
+            case "consultTotalPaginas":
+                    //consultTotalPaginas();
+                break;
+        }
+        
+        
+    }
+
+
+    function consulta(){
+
+        global $vConn;
+
+        $vQuery = "";
+        $vQuery = "";
+
+        $vRes =  $vConn->ExecuteWithReturn($vQuery);
+
+        $vHTML = "";
+
+        foreach($vRes as $vObj){
+            $vHTML .= "<tr>
+                                <td>".$vObj['Description']."</td>
+                                <td>".$vObj['Model']."</td>
+                                <td>".$vObj['Presion']."</td>
+                                <td>".$vObj['Aspa']."</td>
+                                <td>".$vObj['Arreglo']."</td>
+                                <td class=\"text-center\">                                      
+                                    <a class=\"label label-primary btnViewFan\" 
+                                        onclick=\"$('#hdnFanId').val('".$vObj['FanId']."')\" >
+                                        <i class=\"fa fa-eye\"></i>
+                                    </a>
+                                    &nbsp;
+                                    <a class=\"label label-primary btnActualiza\" 
+                                        onclick=\"$('#hdnFanId').val('".$vObj['FanId']."')\" >
+                                        <i class=\"fa fa-pencil\"></i>
+                                    </a>
+                                    &nbsp;
+                                    <a class=\"label label-danger\" 
+                                        onclick=\"if(confirm('Delete fan: ".$vObj['Model']." - ".$vObj['Presion']." ?')){ eliminaFan('".$vObj['FanId']."'); }\" >
+                                        <i class=\"fa fa-times\"></i>
+                                    </a>
+                                </td>
+                            </tr>";
+        }
+
+        echo $vHTML;
+
+    }
 
 ?>
 <!DOCTYPE html>
