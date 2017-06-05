@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: HOPEWELL
- * Date: 26/05/2017
- * Time: 0:01
- */
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -58,11 +53,13 @@
                         <label for="rfc" class="col-md-4 control-label">CURP / N&uacute;m. IDE</label>
                         <div class="col-md-8">
                             <input type="text" class="form-control" id="curp" placeholder="Ingresa tu CURP / N&uacute;m. IDE">
+                            <input type="hidden" id="acc" name="acc" value="ingreso">
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-md-offset-4 col-md-8">
                             <button type="submit" class="btn btn-primary pull-right">Ingresar</button>
+                            <a href="http://aplicaciones.inmujeres.gob.mx/mujermigrante/" class="btn btn-default pull-right">Salir</a>
                         </div>
                     </div>
                 </form>
