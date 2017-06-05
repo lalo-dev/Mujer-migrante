@@ -555,13 +555,13 @@
                                 <option value=""></option>
                                 <option>Rural</option>
                                 <option>Urbana</option>
-                                <option>Indigena</option>
+                                <option>Ind&iacute;gena</option>
                             </select>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
-                            <label for="">Tipo de poblaci&oacute;n indigena <span>*</span></label>
+                            <label for="">Tipo de poblaci&oacute;n ind&iacute;gena <span>*</span></label>
                             <select name="" id="" class="form-control">
                                 <option value=""></option>
                                 <option>Seri</option>
@@ -575,7 +575,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="form-group">
-                            <label for="">Otro tipo de poblaci&oacute;n indigena <span>*</span></label>
+                            <label for="">Otro tipo de poblaci&oacute;n ind&iacute;gena <span>*</span></label>
                             <input type="text" class="form-control" placeholder="" disabled>
                         </div>
                     </div>
@@ -635,7 +635,7 @@
                             </select>
                         </div>
                         <div class="col-md-4">
-                            <label for="">Pais <span>*</span></label>
+                            <label for="">Pa&iacute;s <span>*</span></label>
                             <select name="" id="" class="form-control">
                                 <option value="">Selecciona</option>
                                 <option>M&eacute;xico</option>
@@ -645,7 +645,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label for="">Otro pais</label>
+                                <label for="">Otro pa&iacute;s</label>
                                 <input type="text" class="form-control" disabled>
                             </div>
                         </div>
@@ -1553,7 +1553,7 @@
                     <div class="tipo-b">
                         <div class="row">
                             <div class="col-md-12">
-                                <h4>Migrantes: mujeres mexicanas que actualmente residen en una otro pa&iacute;s, conteste las siguientes preguntas:</h4>
+                                <h4>Emigrantes: mujeres mexicanas que actualmente residen en una otro pa&iacute;s, conteste las siguientes preguntas:</h4>
                             </div>
                         </div>
                         <div class="row">
@@ -2105,7 +2105,7 @@
                     <div class="tipo-c">
                         <div class="row">
                             <div class="col-md-12">
-                                <h4>Migrantes de retorno: mujeres mexicanas que regresaron al oa&iacute;s depu&eacute;s de haber vivido en otro, conteste las siguientes preguntas:</h4>
+                                <h4>Migrantes de retorno: mujeres mexicanas que regresaron al oa&iacute;s depu&eacute;s de haber vivido en otro pa&iacute;s, conteste las siguientes preguntas:</h4>
                             </div>
                         </div>
                         <div class="row">
@@ -2743,7 +2743,7 @@
                         </fielset>
                         <div class="row">
                             <div class="col-md-12">
-                                <p><strong>&#191;Por Qu&eacute; se fue de su pa&iacute;s&#63;</strong></p>
+                                <p><strong>&#191;Por qu&eacute; se fue de su pa&iacute;s&#63;</strong></p>
                             </div>
                         </div>
                         <div class="row">
